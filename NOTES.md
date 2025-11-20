@@ -5,3 +5,4 @@
 - 2025-11-16 21:42  docs: clarify note
 - 2025-11-17 18:12  wip: scratch note
 - 2025-11-19 13:02  wip: iteration
+- 2025-11-20 10:23  chore: log update
