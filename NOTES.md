@@ -11,3 +11,4 @@
 - 2025-11-22 22:21  chore: bookkeeping
 - 2025-11-24 13:53  docs: minor update
 - 2025-11-24 22:24  chore: notes update
+- 2025-11-25 17:50  docs: clarify note
