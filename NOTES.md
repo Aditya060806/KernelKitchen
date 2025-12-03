@@ -14,3 +14,4 @@
 - 2025-11-25 17:50  docs: clarify note
 - 2025-11-28 12:23  wip: progress note
 - 2025-12-02 10:12  docs: update notes
+- 2025-12-03 12:54  wip: iteration
