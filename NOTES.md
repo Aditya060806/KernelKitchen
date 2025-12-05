@@ -17,3 +17,4 @@
 - 2025-12-03 12:54  wip: iteration
 - 2025-12-03 18:50  chore: bookkeeping
 - 2025-12-03 22:03  chore: bookkeeping
+- 2025-12-05 18:25  refactor: minor cleanup
