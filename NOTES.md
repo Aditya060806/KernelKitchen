@@ -18,3 +18,4 @@
 - 2025-12-03 18:50  chore: bookkeeping
 - 2025-12-03 22:03  chore: bookkeeping
 - 2025-12-05 18:25  refactor: minor cleanup
+- 2025-12-07 19:01  notes: add entry
