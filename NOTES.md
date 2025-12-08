@@ -20,3 +20,4 @@
 - 2025-12-05 18:25  refactor: minor cleanup
 - 2025-12-07 19:01  notes: add entry
 - 2025-12-07 19:54  docs: progress log
+- 2025-12-08 15:14  chore: tweak
