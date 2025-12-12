@@ -24,3 +24,4 @@
 - 2025-12-09 10:04  wip: progress note
 - 2025-12-09 15:20  chore: bookkeeping
 - 2025-12-11 17:58  chore: bookkeeping
+- 2025-12-12 13:21  docs: addendum
