@@ -28,3 +28,4 @@
 - 2025-12-13 20:50  notes: progress
 - 2025-12-16 21:52  chore: log update
 - 2025-12-17 16:41  docs: progress log
+- 2025-12-18 10:26  docs: clarify note
