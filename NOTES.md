@@ -36,3 +36,4 @@
 - 2025-12-26 17:51  notes: daily log
 - 2025-12-29 17:47  notes: daily log
 - 2026-01-01 11:20  chore: housekeeping
+- 2026-01-05 16:29  docs: addendum
