@@ -45,3 +45,4 @@
 - 2026-01-09 14:07  chore: tidy up
 - 2026-01-09 16:50  chore: log update
 - 2026-01-10 21:09  notes: tracking
+- 2026-01-12 21:22  notes: add entry
