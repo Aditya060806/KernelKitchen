@@ -54,3 +54,4 @@
 - 2026-01-18 22:14  wip: progress note
 - 2026-01-20 15:09  chore: notes update
 - 2026-01-21 11:26  notes: add entry
+- 2026-01-22 17:41  wip: iteration
