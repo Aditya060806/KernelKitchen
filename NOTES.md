@@ -60,3 +60,4 @@
 - 2026-01-30 11:59  wip: progress note
 - 2026-01-31 11:46  chore: progress
 - 2026-01-31 23:26  chore: progress
+- 2026-02-01 10:23  refactor: minor cleanup
