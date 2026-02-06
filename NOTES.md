@@ -68,3 +68,4 @@
 - 2026-02-04 09:59  chore: housekeeping
 - 2026-02-05 09:08  docs: addendum
 - 2026-02-05 20:02  wip: iteration
+- 2026-02-06 11:23  docs: clarify note
