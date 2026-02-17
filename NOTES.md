@@ -79,3 +79,4 @@
 - 2026-02-15 12:42  chore: bookkeeping
 - 2026-02-15 18:15  docs: update notes
 - 2026-02-15 20:05  notes: add entry
+- 2026-02-17 13:30  wip: iteration
