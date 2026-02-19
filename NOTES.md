@@ -82,3 +82,4 @@
 - 2026-02-17 13:30  wip: iteration
 - 2026-02-18 09:09  notes: tracking
 - 2026-02-18 23:03  docs: update notes
+- 2026-02-19 19:44  docs: addendum
