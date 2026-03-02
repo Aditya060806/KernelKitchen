@@ -1,0 +1,50 @@
+version: "1"
+
+services:
+  # ─── 1. Simulation Engine (Python) ───
+  - type: web
+    name: kernelkitchen-engine
+    env: python
+    region: ohio
+    plan: free
+    buildCommand: "cd simulation-engine && pip install -r requirements.txt"
+    startCommand: "cd simulation-engine && python app.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  # ─── 2. Gateway Server (Node.js) ───
+  - type: web
+    name: kernelkitchen-gateway
+    env: node
+    region: ohio
+    plan: free
+    buildCommand: "cd gateway-server && npm install"
+    startCommand: "cd gateway-server && node server.js"
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: SIM_ENGINE_URL
+        fromService:
+          type: web
+          name: kernelkitchen-engine
+          envVarKey: RENDER_EXTERNAL_URL
+
+  # ─── 3. Client Dashboard (React / Vite) ───
+  - type: web
+    name: kernelkitchen-client
+    env: static
+    region: ohio
+    plan: free
+    buildCommand: "cd client-dashboard && npm install && npm run build"
+    staticPublishPath: "./client-dashboard/dist"
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: kernelkitchen-gateway
+          envVarKey: RENDER_EXTERNAL_URL
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

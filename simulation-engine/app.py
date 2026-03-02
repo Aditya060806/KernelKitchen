@@ -6,6 +6,7 @@ Architecture:
   React Client ←→ Node Gateway ←→ [THIS] Python Simulation Engine
 """
 
+import os
 import uuid
 import logging
 import time
@@ -161,5 +162,6 @@ if __name__ == "__main__":
     scheduler.start()
     logger.info("Priority Scheduler started — VIP > Express > Normal")
 
-    logger.info("Simulation Engine running on http://localhost:5000")
-    socketio.run(app, host="0.0.0.0", port=5000, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    logger.info(f"Simulation Engine running on port {port}")
+    socketio.run(app, host="0.0.0.0", port=port, debug=False)
