@@ -93,3 +93,4 @@
 - 2026-03-03 20:45  chore: bookkeeping
 - 2026-03-05 11:45  notes: progress
 - 2026-03-06 20:10  notes: daily log
+- 2026-03-12 17:29  docs: clarify note
