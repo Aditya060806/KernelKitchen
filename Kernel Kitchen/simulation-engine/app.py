@@ -31,8 +31,10 @@ app.config["SECRET_KEY"] = "os-assignment-secret"
 # Allow cross-origin from Node gateway and React dev server
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Socket.IO with eventlet for async support
-socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet", logger=False)
+# Use a runtime-selectable async mode. Default to threading for Python 3.14
+# compatibility (eventlet currently fails on newer Python versions).
+SOCKETIO_ASYNC_MODE = os.environ.get("SOCKETIO_ASYNC_MODE", "threading")
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode=SOCKETIO_ASYNC_MODE, logger=False)
 
 # ─── Core OS Components ───────────────────────────────────────────────────────
 order_queue = OrderQueue()
@@ -152,10 +154,8 @@ def on_disconnect():
 # ─── Entry Point ──────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    import eventlet
-    import eventlet.wsgi
-
     logger.info("Starting OS Simulation Engine...")
+    logger.info(f"Socket.IO async mode: {SOCKETIO_ASYNC_MODE}")
 
     # Start the priority scheduler (background dispatcher thread)
     scheduler = Scheduler(order_queue, broadcast)
