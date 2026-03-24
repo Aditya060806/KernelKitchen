@@ -94,6 +94,50 @@ npm run dev
 
 Navigate to **[http://localhost:5173](http://localhost:5173)**
 
+## Deploy Full Project (Render)
+
+This repository already includes `render.yaml` for one-click Blueprint deployment of all 3 services.
+
+### 1. Push code to GitHub
+
+- Commit and push this project to a GitHub repository.
+
+### 2. Create Render Blueprint
+
+- In Render: **New +** -> **Blueprint**
+- Connect your GitHub repo.
+- Render will detect `render.yaml` and create:
+        - `kernelkitchen-engine` (Python)
+        - `kernelkitchen-gateway` (Node)
+        - `kernelkitchen-client` (Static site)
+
+### 3. Verify environment wiring
+
+`render.yaml` already wires these automatically:
+
+- `SIM_ENGINE_URL` in gateway -> engine's external URL
+- `VITE_API_URL` in client -> gateway's external URL
+
+### 4. Deploy order and health checks
+
+- Deploy the Blueprint.
+- Wait until all 3 services show **Live**.
+- Test in order:
+        - Engine health: `https://<engine-url>/health`
+        - Gateway health: `https://<gateway-url>/api/health`
+        - Client app: `https://<client-url>`
+
+### 5. Post-deploy smoke test
+
+- Open the client URL.
+- Place one **VIP** order and one **Normal** order.
+- Confirm dashboard updates (`order_update`, `thread_spawned`, `thread_done`) and queue priority behavior.
+
+### Notes
+
+- Free plans may cold-start/sleep. First request can be slow.
+- If WebSocket reconnect messages appear briefly after sleep, this is expected on free tiers.
+
 ## API Reference
 
 ### Python Engine (port 5000)
