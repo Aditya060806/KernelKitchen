@@ -102,3 +102,4 @@
 - 2026-03-25 22:35  wip: iteration
 - 2026-03-27 17:15  chore: progress
 - 2026-03-28 14:26  notes: tracking
+- 2026-03-30 13:09  refactor: minor cleanup
