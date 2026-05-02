@@ -128,3 +128,4 @@
 - 2026-04-30 23:24  chore: tidy up
 - 2026-05-01 22:21  notes: progress
 - 2026-05-02 15:11  wip: scratch note
+- 2026-05-02 23:21  docs: addendum
