@@ -130,3 +130,4 @@
 - 2026-05-02 15:11  wip: scratch note
 - 2026-05-02 23:21  docs: addendum
 - 2026-05-03 17:23  notes: add entry
+- 2026-05-04 22:38  wip: progress note
