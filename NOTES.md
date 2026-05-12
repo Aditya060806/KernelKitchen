@@ -137,3 +137,4 @@
 - 2026-05-11 20:29  docs: addendum
 - 2026-05-11 21:44  chore: bookkeeping
 - 2026-05-12 11:50  docs: addendum
+- 2026-05-12 20:59  wip: iteration
