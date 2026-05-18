@@ -142,3 +142,4 @@
 - 2026-05-15 13:59  chore: housekeeping
 - 2026-05-16 18:48  chore: bookkeeping
 - 2026-05-16 19:56  wip: scratch note
+- 2026-05-18 10:23  chore: tweak
