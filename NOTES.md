@@ -150,3 +150,4 @@
 - 2026-05-26 10:23  wip: progress note
 - 2026-05-27 10:03  chore: bookkeeping
 - 2026-05-27 22:21  chore: notes update
+- 2026-05-28 09:12  notes: progress
