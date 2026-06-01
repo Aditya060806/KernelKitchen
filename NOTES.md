@@ -153,3 +153,4 @@
 - 2026-05-28 09:12  notes: progress
 - 2026-05-29 19:55  chore: housekeeping
 - 2026-05-31 11:01  docs: progress log
+- 2026-06-01 20:05  wip: scratch note
