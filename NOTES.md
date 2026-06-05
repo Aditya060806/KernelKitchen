@@ -155,3 +155,4 @@
 - 2026-05-31 11:01  docs: progress log
 - 2026-06-01 20:05  wip: scratch note
 - 2026-06-03 16:07  chore: tweak
+- 2026-06-05 12:27  notes: tracking
