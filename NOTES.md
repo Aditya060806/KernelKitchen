@@ -159,3 +159,4 @@
 - 2026-06-05 23:04  docs: minor update
 - 2026-06-06 12:42  notes: tracking
 - 2026-06-06 17:36  notes: tracking
+- 2026-06-07 11:37  docs: clarify note
