@@ -161,3 +161,4 @@
 - 2026-06-06 17:36  notes: tracking
 - 2026-06-07 11:37  docs: clarify note
 - 2026-06-07 11:52  wip: progress note
+- 2026-06-08 12:45  chore: notes update
