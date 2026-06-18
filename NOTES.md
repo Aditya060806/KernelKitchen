@@ -176,3 +176,4 @@
 - 2026-06-16 18:45  notes: add entry
 - 2026-06-16 22:23  chore: tweak
 - 2026-06-17 21:38  notes: add entry
+- 2026-06-18 17:26  chore: tidy up
