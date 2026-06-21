@@ -180,3 +180,4 @@
 - 2026-06-19 11:28  notes: add entry
 - 2026-06-19 13:58  chore: tweak
 - 2026-06-19 20:06  chore: tweak
+- 2026-06-21 11:00  refactor: minor cleanup
