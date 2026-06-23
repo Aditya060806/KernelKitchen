@@ -185,3 +185,4 @@
 - 2026-06-21 19:13  notes: tracking
 - 2026-06-22 20:44  notes: progress
 - 2026-06-22 22:59  docs: update notes
+- 2026-06-23 11:37  docs: addendum
