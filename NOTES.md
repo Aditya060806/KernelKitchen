@@ -188,3 +188,4 @@
 - 2026-06-23 11:37  docs: addendum
 - 2026-06-24 11:26  docs: addendum
 - 2026-06-25 17:24  docs: progress log
+- 2026-06-25 17:40  docs: clarify note
