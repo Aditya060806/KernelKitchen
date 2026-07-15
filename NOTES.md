@@ -205,3 +205,4 @@
 - 2026-07-11 19:42  notes: add entry
 - 2026-07-12 15:22  wip: scratch note
 - 2026-07-14 10:19  chore: log update
+- 2026-07-15 16:18  docs: clarify note
