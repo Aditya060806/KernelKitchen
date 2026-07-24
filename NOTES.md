@@ -214,3 +214,4 @@
 - 2026-07-20 15:01  wip: scratch note
 - 2026-07-21 12:37  docs: addendum
 - 2026-07-23 14:37  wip: progress note
+- 2026-07-24 12:30  docs: clarify note
