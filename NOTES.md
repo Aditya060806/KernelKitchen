@@ -224,3 +224,4 @@
 - 2026-07-28 16:40  notes: tracking
 - 2026-07-28 17:59  docs: clarify note
 - 2026-07-29 23:14  docs: update notes
+- 2026-07-30 14:04  wip: scratch note
