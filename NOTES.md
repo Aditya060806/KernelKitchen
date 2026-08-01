@@ -225,3 +225,4 @@
 - 2026-07-28 17:59  docs: clarify note
 - 2026-07-29 23:14  docs: update notes
 - 2026-07-30 14:04  wip: scratch note
+- 2026-08-01 10:39  chore: progress
