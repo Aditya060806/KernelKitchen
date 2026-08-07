@@ -232,3 +232,4 @@
 - 2026-08-05 19:15  docs: progress log
 - 2026-08-06 18:20  docs: addendum
 - 2026-08-06 22:56  chore: notes update
+- 2026-08-07 20:52  refactor: minor cleanup
