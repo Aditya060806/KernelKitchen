@@ -249,3 +249,4 @@
 - 2026-08-25 13:29  wip: iteration
 - 2026-08-26 10:20  notes: progress
 - 2026-08-26 14:24  chore: bookkeeping
+- 2026-08-30 14:57  chore: tidy up
