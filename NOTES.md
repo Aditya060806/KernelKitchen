@@ -251,3 +251,4 @@
 - 2026-08-26 14:24  chore: bookkeeping
 - 2026-08-30 14:57  chore: tidy up
 - 2026-08-30 17:21  docs: minor update
+- 2026-08-31 09:34  wip: progress note
