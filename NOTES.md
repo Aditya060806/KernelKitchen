@@ -286,3 +286,4 @@
 - 2026-09-29 15:43  wip: progress note
 - 2026-10-01 14:00  docs: update notes
 - 2026-10-06 17:11  docs: minor update
+- 2026-10-09 18:09  docs: clarify note
