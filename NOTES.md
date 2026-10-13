@@ -290,3 +290,4 @@
 - 2026-10-10 19:59  chore: notes update
 - 2026-10-11 09:36  wip: iteration
 - 2026-10-11 15:36  chore: progress
+- 2026-10-13 12:24  docs: clarify note
