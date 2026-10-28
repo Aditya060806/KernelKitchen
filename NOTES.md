@@ -298,3 +298,4 @@
 - 2026-10-16 20:04  chore: log update
 - 2026-10-17 13:08  chore: log update
 - 2026-10-23 22:38  chore: tweak
+- 2026-10-28 21:22  docs: update notes
