@@ -301,3 +301,4 @@
 - 2026-10-28 21:22  docs: update notes
 - 2026-10-29 18:36  wip: scratch note
 - 2026-10-30 11:20  docs: progress log
+- 2026-10-30 15:07  chore: tidy up
